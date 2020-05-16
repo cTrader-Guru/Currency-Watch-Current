@@ -20,7 +20,7 @@ namespace cAlgo
 
     [Indicator(IsOverlay = false, TimeZone = TimeZones.UTC, AccessRights = AccessRights.None)]
     [Levels(0)]
-    public class INDICATORBASE : Indicator
+    public class CurrencyWatchCurrent : Indicator
     {
 
         #region Enums
@@ -39,7 +39,7 @@ namespace cAlgo
         /// <summary>
         /// La versione del prodotto, progressivo, utilie per controllare gli aggiornamenti se viene reso disponibile sul sito ctrader.guru
         /// </summary>
-        public const string VERSION = "1.0.1";
+        public const string VERSION = "1.0.2";
 
         #endregion
 
